@@ -1,7 +1,7 @@
 import { TestBed, async } from '@angular/core/testing'
-import { AppComponent } from './app.component'
-import { CurrentWeatherComponent } from './current-weather/current-weather.component'
 import { createComponentMock } from 'angular-unit-test-helper'
+
+import { AppComponent } from './app.component'
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
